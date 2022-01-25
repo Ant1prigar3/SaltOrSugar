@@ -258,7 +258,6 @@ def win_level(num, winnn=True):
                 fffff = 0
         all_sprites.draw(display)
         pygame.display.flip()
-        print(slavar_max)
         if winnn is False:
             clock.tick(5)
         else:
